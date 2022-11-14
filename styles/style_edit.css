@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+:root{
+    --font-style:'Nunito Sans', sans-serif;
+}
+/* html{
+    position: relative;
+    left: 50%;
+    margin-top: 30%;
+    background-color: #322B2B;
+    color: #fff;
+    font-family: var(--font-style);
+    display: grid;
+    justify-content: center;
+} */
+body{
+    font-family: var(--font-style);
+    background-color: #322B2B;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 450px;
+    height: auto;
+    margin-top: 3%;
+    /* margin-left: 150%;
+    margin-top: 10%; */
+    /* transform: translate(0%,50%); */
+    background: #151515;
+    box-shadow: 0px 1px 4px #752e7c;
+    border-radius: 35px;
+    /* text-align: center; */
+}
+.form-edit {
+    margin: 5% 5% 10% 5%;
+}
+h1{
+    color: white;
+    margin: auto;
+    font-size: 300%;
+    margin-top: 30px;
+}
+h2{
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
+}
+p{
+    color: white;
+    margin: auto;
+}
+label {
+    margin: auto;
+    padding-top: 5px;
+    color: white;
+    
+}
+
+input{
+    width: 96%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #DBBDBD;
+    padding: 2%;
+    border-radius: 25px;
+    border: 0;
+}
+
+.textarea{
+    width: 96%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #DBBDBD;
+    padding: 2%;
+    border-radius: 25px;
+    border: 0;
+}
+input::placeholder{
+    color: #333030;
+}
+button{
+    width: 20%;
+    padding: 1%;
+    border-radius: 25px;
+    color: white;
+    background-color: #752e7c;
+    border: 0;
+    margin: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #333030;
+}
+
+a button .atras {
+    width: 75px; 
+    padding: 10px; 
+    margin: 25px;
+}
+.regist{
+    width: 50%;
+    padding: 1%;
+    border-radius: 25px;
+    color: white;
+    background-color: #752e7c6a;
+    border: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.alert{
+    color: red;
+    font-size: 15px;
+    margin: auto;
+}
+/* Form Edit */
+
+select{
+    width: 23%;
+    margin: auto;
+    background-color: #DBBDBD;
+    padding: 2%;
+    border-radius: 25px;
+    border: 0;
+}
+
+/* Habilidades e Idiomas */
+.form-habil-idiom {
+    margin-left: 22px;
+}
+.habil-idiom {
+    width: 35%;
+}
+.range-habil-idiom {
+    width: 25%;
+}
+.add {
+    /* padding: 1%; */
+    margin-left: 75% ;
+    width: 9%;
+    height: 7%;
+}
+.tabla-ranges {
+    background-color: #DBBDBD;
+    padding: 2%;
+    border-radius: 25px;
+    border: 0;
+    width: 300px;
+}
+td {
+    margin: 25px;
+}
+
+/* barras de progreso */
+.barra {
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    width: 145px;
+    height: 15px;
+    margin-bottom: 8px;
+}
+.porcentaje{
+    height: 20px;    border-radius: 5px;
+}
+
+.range-habil-idiom::-webkit-slider-thumb{
+    background-color: #752e7c;
+}
+
+.percen {height: 20px;    border-radius: 5px;}
+
+.input-barra{
+    text-align: center;
+}
+
+h3{
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+    margin-left: 50px;
+}
+#percen{
+    border: #752e7c;
+}
+output{
+    margin-left: 5px;
+    color: white;
+}
+span{
+    color: white;
+}
+.field_wrapper{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.competencias input {
+    flex-direction: row;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    position: fixed;
+    text-align: center;
+    font-style: italic;
+    top: 37vw;
+    /* display: flex;
+    flex-direction: column; */
+}
+hr{
+    border-color: #fff;
+}
+/* .competencias{
+    
+} */

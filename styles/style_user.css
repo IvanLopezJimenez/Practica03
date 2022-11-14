@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+:root{
+    --font-style:'Nunito Sans', sans-serif;
+}
+body{
+    font-family: var(--font-style);
+    background-color: #322B2B;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 400px;
+    height: auto;
+    margin-top: 5%;
+    /* margin-left: 150%;
+    margin-top: 10%; */
+    /* transform: translate(0%,50%); */
+    background: #151515;
+    box-shadow: 0px 1px 4px #752e7c;
+    border-radius: 35px;
+    text-align: center;
+}
+h1{
+    color: white;
+    margin: auto;
+    font-size: 300%;
+    margin-top: 30px;
+}
+h2{
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
+}
+p{
+    color: white;
+    margin: auto;
+}
+label {
+    margin: auto;
+    padding-top: 5px;
+    color: white;
+}
+input{
+    width: 75%;
+    margin: auto;
+    /* margin-right: 40px; */
+    background-color: #DBBDBD;
+    padding: 3%;
+    border-radius: 25px;
+    border: 0;
+}
+input::placeholder{
+    color: #333030;
+}
+button{
+    width: 25%;
+    padding: 1%;
+    border-radius: 25px;
+    color: white;
+    background-color: #752e7c;
+    border: 0;
+    margin: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #333030;
+}
+
+.atras {
+    position: relative;
+    width: 75px; 
+    padding: auto; 
+    margin: auto;
+}
+.regist{
+    width: 50%;
+    padding: 1%;
+    border-radius: 25px;
+    color: white;
+    background-color: #752e7c6a;
+    border: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.alert{
+    color: red;
+    font-size: 15px;
+    margin: auto;
+}
+output{
+    margin-left: 5px;
+    color: white;
+}
+span{
+    color: white;
+}
+.material-symbols-rounded {
+    /* background-color:#DBBDBD; */
+    position: relative;
+    top: 30px;
+    left: 295px;
+    text-align: right;
+    color: #752e7c;
+    width: 13%;
+    border-radius: 35px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    position: fixed;
+    text-align: center;
+    font-style: italic;
+    top: 37vw;
+    /* display: flex;
+    flex-direction: column; */
+}

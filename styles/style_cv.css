@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+:root{
+    --font-style:'Nunito Sans', sans-serif;
+} 
+.refresh{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 400px;
+    /* transform: translate(-50%,-50%); */
+    background: #151515;
+    box-shadow: 0px 1px 4px #752e7c;
+    border-radius: 35px;
+    color: #f1f1f1;
+    padding: 20px 20px 20px 20px;
+    margin-top: 5%;
+}
+body{
+    font-family: var(--font-style);
+    background-color: #322B2B;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.boton {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.atras{
+    margin-left: -120px;
+}
+.salir{
+    margin-left: 85px;
+}
+button{
+    width: auto;
+    padding: 5px 5px 1px 5px; 
+    border-radius: 25px;
+    color: white;
+    background-color: #752e7c;
+    border: 0;
+    margin-bottom: 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+}
+button:hover{
+    background-color: #333030;
+}
+html{
+    background-color: #322B2B;
+}
+
+.header {
+    background-color: #752e7cb2;
+    padding: 50px 0px 50px 0px;
+    width: 105%;
+    position: relative;
+    /* left: 50%;
+    top: 80%; */
+    /* box-shadow: 0px 1px 4px #752e7c; */
+    /* border-top-left-radius:  35px;
+    border-top-right-radius:  35px; */
+    right: 10px;
+    
+}
+.content{
+    /* margin-left: 20px;
+    margin-right: 30px; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 1100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* transform: translate(-50%,-50%); */
+    background-color: #151515;
+    box-shadow: 0px 1px 4px #752e7c;
+    border-radius: 35px;
+    color: #f1f1f1;
+    margin-top: 3%;
+}
+
+h1 {
+    color: #fff;
+    padding-left: 100px;
+}
+
+h5{
+    color: #fff;
+}
+
+/* imagen de perfil:  */
+.host { 
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 60px;
+    width: 225px;
+}
+
+hr {
+    width: 50%;
+    text-align:left; 
+    margin-left:0px;
+    margin-top: 50px;
+    
+}
+
+.columna1 {
+    margin-top: 100px;
+    padding-left: 5px;
+}
+
+/* flechitas */
+.bi-chevron-double-right {
+    width: 25px;
+    margin-top: 5px;
+    
+}
+
+.bi-telephone-fill {
+    transform: rotate(-90deg);
+}
+
+.subtitulo {
+    color:white;
+}
+
+.pagina {
+    justify-content: right;
+}
+
+/* barras de progreso */
+.barra {
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    width: 145px;
+    height: 15px;
+    margin-bottom: 8px;
+}
+.porcentaje{
+    height: 20px;    border-radius: 5px;
+
+
+}
+
+.percen {height: 20px;    border-radius: 5px;}
+.avanzador{
+    height: 15px;    border-radius: 5px;
+
+    background-color: #752e7c;
+    width: 100%;
+    animation: prog 1s linear;
+
+}
+
+/* modo oscuro */
+
+.content.darkmode{
+    background-color: #f1f1f1;
+    color: #151515;
+}
+
+.darkmode h1{
+    color: #151515;
+}
+.darkmode .subtitulo {
+    color: #151515;
+}
+.darkmode h5{
+    color: #151515;
+}
+
+.darkmode button{
+    color: #f1f1f1;
+}
+
+.darkmode button:hover{
+    background-color: #f1f1f1;
+    color: #151515;
+}
